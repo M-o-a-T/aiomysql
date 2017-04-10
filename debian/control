@@ -1,0 +1,23 @@
+Source: aiomysql
+Maintainer: Matthias Urlichs <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/aio-libs/aiomysql
+
+Package: python3-aiomysql
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: MySQL driver for asyncio.
+ A driver for accessing a MySQL database from the asyncio framework.
+ It depends on and reuses most parts of PyMySQL.
+ .
+ aiomysql tries to be like awesome aiopg library and preserve same api,
+ look and feel.
+ .
+ Internally aiomysql is a copy of PyMySQL, underlying io calls switched
+ to async.
+ .
+ sqlalchemy support ported from aiopg.
+

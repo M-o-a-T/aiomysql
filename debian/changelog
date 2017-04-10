@@ -1,0 +1,5 @@
+aiomysql (0.0.9-1) smurf; urgency=low
+
+  * source package automatically created by stdeb 0.8.5
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 10 Apr 2017 08:48:49 +0200
