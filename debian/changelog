@@ -1,3 +1,9 @@
+aiomysql (0.0.9-2) smurf; urgency=medium
+
+  * depend on pymysql
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 10 Apr 2017 09:06:50 +0200
+
 aiomysql (0.0.9-1) smurf; urgency=low
 
   * source package automatically created by stdeb 0.8.5
