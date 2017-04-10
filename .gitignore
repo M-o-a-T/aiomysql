@@ -62,4 +62,4 @@ target/
 .ropeproject
 
 
-tests/fixtures/my.cnf
+tests/fixtures/my.cnf/.pybuild
