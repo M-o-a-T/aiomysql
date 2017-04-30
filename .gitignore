@@ -63,3 +63,4 @@ target/
 
 
 tests/fixtures/my.cnf/.pybuild
+/.pybuild
